@@ -10,6 +10,7 @@ Building the data warehouse ad a full stack data engineer.
 - **Customer behavior**
 - **Product performance**
 - **Sales trends**
+
 These insights help empower stakeholders with key business metrics, kPIs they want to keep a track of, enabling strategic decision-making. 
 ### Specifications
 - **Data Sources**: import data from the source systme(CRM&ERP) in csv files.
