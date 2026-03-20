@@ -16,6 +16,7 @@ Usage Example:
 
 Starting with emptying, it ends with creating the procedure of loading in the data with the Bulk in method. 
 ===========================================================================================================
+*/
 
 -- 1. Create the Master Key (fixed missing END here)
 IF NOT EXISTS (SELECT * FROM sys.symmetric_keys WHERE name = '##MS_DatabaseMasterKey##')
