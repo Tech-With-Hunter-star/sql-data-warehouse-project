@@ -2,7 +2,18 @@
 ===========================================================================================================
 DDL script: create bronze table
 ===========================================================================================================
-Purpose of the script: The script is aimed to ingest the raw data from azure database into the bronze layer.
+Purpose of the script: 
+The script is aimed to ingest the raw data from azure database into the bronze layer. Here is what it does:
+- truncates the bronze tables before loading data from our cloud platform
+- Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
+Parameters:
+    None.
+    This stored procedure does not accept any parameters or return any values.
+
+Usage Example:
+    EXEC bronze.load_bronze;
+
+
 Starting with emptying, it ends with creating the procedure of loading in the data with the Bulk in method. 
 ===========================================================================================================
 
